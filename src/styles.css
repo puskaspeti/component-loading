@@ -1,0 +1,19 @@
+app-root {
+  display: flex;
+  border: 1px solid black;
+}
+
+app-sor {
+  display: flex;
+  border: 1px solid red;
+}
+
+app-oszlop {
+  display: inline-flex;
+  border: 1px solid blue;
+}
+
+app-szoveg {
+  display: flex;
+  border: 1px solid green;
+}
