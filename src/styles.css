@@ -1,9 +1,10 @@
 app-root {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
 
-app-sor {
+[app-sor] {
   display: flex;
   border: 1px solid red;
 }

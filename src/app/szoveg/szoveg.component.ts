@@ -1,6 +1,6 @@
 import {Component, Input, OnInit, ViewContainerRef} from '@angular/core';
-import {ISzovegElem} from '../models/i-elem';
 import {IElemComponent} from '../models/i-elem-component';
+import { Szoveg } from '../models/elem';
 
 @Component({
   selector: 'app-szoveg',
@@ -11,9 +11,8 @@ export class SzovegComponent implements OnInit, IElemComponent {
 
   entry: ViewContainerRef;
 
-  _elem: ISzovegElem;
-  @Input() set elem(val: ISzovegElem) {
-    console.log(val)
+  _elem: Szoveg;
+  @Input() set elem(val: Szoveg) {
     this._elem = val;
   }
 
