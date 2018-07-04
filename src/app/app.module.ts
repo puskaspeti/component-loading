@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SorComponent } from './sor/sor.component';
 import { OszlopComponent } from './oszlop/oszlop.component';
 import { SzovegComponent } from './szoveg/szoveg.component';
+import { RenderPipe } from './render.pipe';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SzovegComponent } from './szoveg/szoveg.component';
     SorComponent,
     OszlopComponent,
     SzovegComponent,
+    RenderPipe,
   ],
   imports: [
     BrowserModule,

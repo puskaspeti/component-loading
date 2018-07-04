@@ -1,4 +1,4 @@
-app-root {
+[app-root] {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
@@ -9,7 +9,7 @@ app-root {
   border: 1px solid red;
 }
 
-app-oszlop {
+[app-oszlop] {
   display: inline-flex;
   border: 1px solid blue;
 }
